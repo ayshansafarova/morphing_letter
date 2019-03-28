@@ -1,0 +1,19 @@
+@keyframes playMorphing {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -46728px 0px;
+  }
+}
+.morphing {
+  margin: 0 auto;
+  animation-duration: 3300ms;
+  animation-timing-function: steps(99);
+  width: 472px;
+  height: 456px;
+  background-repeat: no-repeat;
+}
+.morphing.play {
+  animation-name: playMorphing;
+}
